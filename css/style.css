@@ -1,0 +1,58 @@
+:root {
+    --color-brand-white: #819b57;
+    --color-brand-dark: #465929;
+    --color-primery-dark: #31261a;
+    --color-primery-white: #faf4ea;
+}
+
+body {
+    color: var(--color-primery-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo {
+    transform: scale(0.3); /* зменшуємо на 50% */
+    transform-origin: center center; /* зберігає центрування логотипу */
+}
+
+.navigation-link {
+    color: var(--color-primery-white);
+}
+
+.navigation-link:hover {
+    color: var(--color-brand-white);
+}
+
+.button {
+    color: var(--color-primery-white);
+    background-color: var(--color-brand-white);
+    border: 2px solid var(--color-brand-white);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    background-color: var(--color-primery-white);
+}
+
+.hero-title {
+    color: var(--color-primery-white);
+}
+
+.hero-title .accent{
+    color: var(--color-brand-white);
+}
+
+.advantages-list {
+    color: var(--color-primery-white);
+    background-color: var(--color-brand-white);
+}
+
+.section-title {
+    color: var(--color-primery-dark);
+
+}
