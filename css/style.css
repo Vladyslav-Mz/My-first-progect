@@ -54,5 +54,9 @@ ul {
 
 .section-title {
     color: var(--color-primery-dark);
+}
 
+.imeges {
+    width: 12cm;
+    height: auto;
 }
